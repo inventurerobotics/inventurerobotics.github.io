@@ -160,7 +160,6 @@ a,
 img {
     max-width: 100%;
     height: auto;
-    margin-top: -68px;
 }
 
  :focus {
@@ -243,6 +242,10 @@ button {
 .navbar {
     padding: 0px 25px 0px 25px;
     height: 150px;
+}
+
+.navbar img {
+    margin-top: -68px;
 }
 
 .mr-auto,
@@ -450,7 +453,7 @@ button.donate_btn {
     width: 100%;
     background-color: #120a78;
     clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
-    height: 380px;
+    height: 480px;
     padding: 30px 20px 70px 20px;
 }
 
@@ -617,6 +620,10 @@ button.donate_btn {
     opacity: 0;
     transition: .5s ease;
     background-color: rgb(241, 89, 88, 0.9);
+}
+
+.banner_section .container {
+    height: 380px;
 }
 
 .container_main:hover .overlay {
@@ -985,7 +992,7 @@ button.donate_btn {
     padding-bottom: 90px;
 }
 
-.contact_taital {
+.contact_title {
     width: 100%;
     float: left;
     font-size: 40px;
