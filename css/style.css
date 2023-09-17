@@ -1100,7 +1100,7 @@ button.donate_btn {
     width: 100%;
     float: left;
     background-color: #222122;
-    height: auto;
+    min-height: 380px;
 }
 
 .social_icon {
