@@ -304,7 +304,7 @@ button.donate_btn {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/kalipso-outreach-bg.png);
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1081,6 +1081,7 @@ button.donate_btn {
 .social_icon {
     width: 100%;
     float: left;
+    margin-left: 80px;
 }
 
 .social_icon ul {
@@ -1091,7 +1092,7 @@ button.donate_btn {
 .social_icon li {
     float: left;
     padding-right: 15px;
-    padding-top: 40px;
+    padding-top: 18px;
 }
 
 .footer_taital {
@@ -1208,7 +1209,6 @@ input.address_text::placeholder {
 /* copyright section start */
 
 .copyright_section {
-    width: 100%;
     float: left;
     background-color: #222122;
     height: auto;
