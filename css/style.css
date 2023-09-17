@@ -138,6 +138,7 @@ p {
     font-weight: 300;
     font-size: 15px;
     line-height: 24px;
+    color: white;
 }
 
 a {
@@ -217,7 +218,7 @@ button {
 }
 
 .layout_padding {
-    padding-top: 90px;
+    padding-top: 10px;
     padding-bottom: 0px;
 }
 
@@ -313,7 +314,7 @@ button.donate_btn {
     margin-bottom: 0;
 }
 
-.banner_taital {
+.banner_title {
     width: 45%;
     margin: 0 auto;
     font-size: 60px;
@@ -374,6 +375,7 @@ button.donate_btn {
 
 .carousel-inner {
     height: 228px;
+    margin-top: 100px;
 }
 
 .donation_box {
@@ -385,7 +387,7 @@ button.donate_btn {
     margin-top: 120px;
 }
 
-.donation_taital {
+.donation_title {
     width: 100%;
     color: #121716;
     font-size: 20px;
@@ -443,6 +445,16 @@ button.donate_btn {
     text-align: center;
 }
 
+.fundraise_section_main .row {
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+.fundraise_section_main .col-lg-4 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 .fundraise_section {
     width: 100%;
     text-align: center;
@@ -452,9 +464,13 @@ button.donate_btn {
 .box_main {
     width: 100%;
     background-color: #120a78;
-    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
-    height: 480px;
-    padding: 30px 20px 70px 20px;
+    /* clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0); */
+    height: 400px;
+    padding: 45px 12px 20px 12px;
+}
+
+.box_main img {
+    height: 72px;
 }
 
 .icon_1 {
@@ -466,10 +482,10 @@ button.donate_btn {
 .volunteer_text {
     width: 100%;
     float: left;
-    font-size: 26px;
+    font-size: 20px;
     color: #fff;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .lorem_text {
@@ -514,15 +530,16 @@ button.donate_btn {
     width: 100%;
     float: left;
     background-color: #120a78;
-    padding-bottom: 90px;
+    margin-bottom: 90px;
 }
 
 .about_img {
     width: 100%;
     float: left;
+    margin-top: 100px;
 }
 
-.about_taital {
+.about_title {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -539,7 +556,11 @@ button.donate_btn {
     font-size: 16px;
     margin: 0px;
     color: #ffffff;
-    padding: 50px 0px;
+    padding: 15px 0px;
+}
+
+.about_text b {
+    font-size: 20px;
 }
 
 .readmore_bt {
@@ -575,7 +596,7 @@ button.donate_btn {
     float: left;
 }
 
-.mission_taital {
+.mission_title {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -623,7 +644,7 @@ button.donate_btn {
 }
 
 .banner_section .container {
-    height: 380px;
+    min-height: 360px;
 }
 
 .container_main:hover .overlay {
@@ -694,7 +715,11 @@ button.donate_btn {
     float: left;
 }
 
-.news_taital {
+.news_section, .about_section {
+    min-height: 780px;
+}
+
+.news_title {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -719,13 +744,12 @@ button.donate_btn {
     padding-top: 40px;
 }
 
-.give_taital {
+.give_title {
     width: 100%;
     float: left;
     font-size: 26px;
     color: #1d1d1d;
     font-weight: bold;
-    padding-top: 60px;
     text-transform: uppercase;
 }
 
@@ -758,6 +782,7 @@ button.donate_btn {
     width: 35%;
     display: flex;
     padding-top: 20px;
+    margin-left: -22px;
 }
 
 .readmore_btn {
@@ -823,7 +848,7 @@ button.donate_btn {
     padding-top: 30px;
 }
 
-.give_taital_1 {
+.give_title_1 {
     width: 100%;
     float: left;
     font-size: 26px;
@@ -905,7 +930,7 @@ button.donate_btn {
     padding-bottom: 90px;
 }
 
-.donate_taital {
+.donate_title {
     width: 100%;
     font-size: 40px;
     color: #ffffff;
@@ -914,7 +939,7 @@ button.donate_btn {
     font-family: 'Open Sans', sans-serif;
 }
 
-.donate_taital_main {
+.donate_title_main {
     width: 100%;
     border: 1px solid #b1afd1;
     padding: 40px 20px 60px 20px;
@@ -1095,7 +1120,7 @@ button.donate_btn {
     padding-top: 18px;
 }
 
-.footer_taital {
+.footer_title {
     width: 100%;
     float: left;
     font-size: 20px;

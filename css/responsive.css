@@ -141,7 +141,7 @@
     .alteration_text {
         margin: 5px;
     }
-    .give_taital {
+    .give_title {
         padding-top: 30px;
     }
     .ipsum_text {
@@ -193,7 +193,7 @@
     .navbar-expand-lg .navbar-collapse {
         margin-top: 0px;
     }
-    .banner_taital {
+    .banner_title {
         width: 65%;
     }
     .banner_text {
@@ -218,7 +218,7 @@
     .donate_bt a {
         width: 114px;
     }
-    .give_taital {
+    .give_title {
         padding-top: 0px;
     }
     .ipsum_text {
@@ -272,7 +272,7 @@
     .navbar-expand-lg .navbar-collapse {
         margin-top: 0px;
     }
-    .banner_taital {
+    .banner_title {
         width: 100%;
         font-size: 40px;
     }
@@ -297,14 +297,14 @@
     .box_main {
         margin-bottom: 20px;
     }
-    .about_taital {
+    .about_title {
         font-size: 30px;
         padding-top: 0px;
     }
     .about_img {
         padding-top: 40px;
     }
-    .mission_taital {
+    .mission_title {
         font-size: 30px;
         padding-left: 0px;
     }
@@ -328,7 +328,7 @@
     .text {
         width: 100%;
     }
-    .news_taital {
+    .news_title {
         font-size: 30px;
     }
     .raised_text {
@@ -340,13 +340,13 @@
     .readmore_btn_1 {
         margin-left: 10px;
     }
-    .give_taital_1 {
+    .give_title_1 {
         font-size: 18px;
     }
     .raised_text_1 {
         font-size: 17px;
     }
-    .donate_taital {
+    .donate_title {
         font-size: 28px;
     }
     .donate_section {
@@ -398,7 +398,7 @@
     .navbar-expand-lg .navbar-collapse {
         margin-top: 0px;
     }
-    .banner_taital {
+    .banner_title {
         width: 100%;
         font-size: 40px;
     }
@@ -423,14 +423,14 @@
     .box_main {
         margin-bottom: 20px;
     }
-    .about_taital {
+    .about_title {
         font-size: 30px;
         padding-top: 0px;
     }
     .about_img {
         padding-top: 40px;
     }
-    .mission_taital {
+    .mission_title {
         font-size: 30px;
         padding-left: 0px;
     }
@@ -454,7 +454,7 @@
     .text {
         width: 100%;
     }
-    .news_taital {
+    .news_title {
         font-size: 30px;
     }
     .raised_text {
@@ -466,13 +466,13 @@
     .readmore_btn_1 {
         margin-left: 10px;
     }
-    .give_taital_1 {
+    .give_title_1 {
         font-size: 18px;
     }
     .raised_text_1 {
         font-size: 17px;
     }
-    .donate_taital {
+    .donate_title {
         font-size: 28px;
     }
     .donate_section {
